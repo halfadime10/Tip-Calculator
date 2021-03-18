@@ -10,9 +10,9 @@
 <div class="app">
   <div class="tip-calculator">
     <header>
-      <h1>Tip Calculator</h1>
+      <h1>Tip + Bill Splitter Calculator</h1>
       </header>
-      <main>
+      <div>
         <section class="options">
           <div class="input-group">
             <div class="pre">$</div>
@@ -33,13 +33,18 @@
             <input type="number" id="party-total" placeholder="How large is your party?" />
             </div>
             </section>
-            <section class="tip-wrap">
+            <section id="tip-wrap">
               <p>You should tip:</p>
-              <h3 class="tip-amount">$0</h3>
+              <h3 id="tip-amount">$0</h3>
+              </section>
+              <section id="splitter-wrap">
+                <p>You should pay:</p>
+                <h3 id="split-amount">$0</h3>
               </section>
       </div>
+          <section>
       <footer>
-        <button id="tip-btn">Tip</button>
+        <button id="calc-btn">Calculate</button>
     </footer>
     </div>
 
