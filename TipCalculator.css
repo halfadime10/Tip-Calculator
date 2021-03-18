@@ -112,7 +112,9 @@ select {
   padding: 10px 15px;
 }
 
+
 #tip-wrap {
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -120,6 +122,7 @@ select {
 }
 
 #splitter-wrap {
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-content: center;
