@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="TipCalculator.css" />
+<script type="text/javascript" src="TipCalculator.js"></script>
+</head>
+
+<div class="app">
+  <div class="tip-calculator">
+    <header>
+      <h1>Tip Calculator</h1>
+      </header>
+      <main>
+        <section class="options">
+          <div class="input-group">
+            <div class="pre">$</div>
+            <input type="number" id="cost" placeholder="Enter the bill amount" />
+          </div>
+          <div class="input-group">
+              <select id="tip-percentage" required>
+                <option disabled selected> Select your tip percentage amount.</option>
+                <option value="30">30%</option>
+                <option value="25">25%</option>
+                <option value="20">20%</option>
+                <option value="15">15%</option>
+                <option value="10">10%</option>
+                <option value="5">5%</option>
+              </select>
+            </div>
+          <div class="input-group">
+            <input type="number" id="party-total" placeholder="How large is your party?" />
+            </div>
+            </section>
+            <section class="tip-wrap">
+              <p>You should tip:</p>
+              <h3 class="tip-amount">$0</h3>
+              </section>
+      </div>
+      <footer>
+        <button id="tip-btn">Tip</button>
+    </footer>
+    </div>
+
+</html>
